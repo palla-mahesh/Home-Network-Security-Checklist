@@ -1,0 +1,13 @@
+Control_ID,Security_Control,Before_State,After_State,Evidence_Reference,Status
+1,Authorization & Configuration Backup,No written baseline recorded,Family permission obtained; original settings exported,before/router_config_backup.bin,Completed
+2,Connected Device Inventory,Unnamed devices mixed on primary LAN,All devices identified by hostname/MAC OUI and logged,audit_logs/after/device_inventory_after.txt,Completed
+3,Wi-Fi Encryption Protocol,WPA/WPA2 Mixed Mode (TKIP fallback),WPA3-SAE / WPA2-PSK (AES-CCMP only),evidence/screenshots/01_wifi_encryption.png,Completed
+4,SSID & Wi-Fi Passphrase,ISP default SSID & 8-digit numeric key,Custom non-identifying SSID & 20-char passphrase,evidence/screenshots/02_wifi_passphrase_redacted.png,Completed
+5,Router Admin Credentials,Default admin credentials,Unique 18-char admin password stored in password manager,Password Manager Entry Note,Completed
+6,Remote WAN Administration,Enabled on HTTP/8080,Disabled (LAN-only HTTPS access),audit_logs/after/router_ports_after.txt,Completed
+7,WPS & UPnP Services,WPS PIN and UPnP IGD enabled,WPS disabled; UPnP disabled (port 1900 closed),audit_logs/after/router_upnp_after.txt,Completed
+8,Router Firmware Version,Outdated firmware (2+ years old),Updated to latest vendor security patch,evidence/screenshots/03_firmware_version.png,Completed
+9,Guest Wi-Fi & IoT Segmentation,No guest network; Smart TV/IoT on main LAN,Guest SSID enabled with Client Isolation for IoT devices,evidence/screenshots/04_guest_network.png,Completed
+10,Encrypted DNS & Malware Filtering,ISP default unencrypted DNS,Quad9 (9.9.9.9) / Cloudflare (1.1.1.2) configured,audit_logs/after/dns_config_after.txt,Completed
+11,Endpoint OS Updates & Backups,Manual updates; irregular backups,Automatic OS/app updates + 3-2-1 encrypted backups enabled,evidence/screenshots/05_endpoint_updates.png,Completed
+12,SPI Firewall & IPv6 Hardening,Basic NAT; unsolicited IPv6 inbound open,SPI Firewall enabled; unsolicited IPv6 inbound blocked,evidence/screenshots/06_firewall_ipv6.png,Completed

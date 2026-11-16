@@ -1,0 +1,7 @@
+PRE-SUBMISSION SCREENSHOT REDACTION CHECKLIST
+Before uploading or sharing your project archive, verify that every screenshot in this folder hides:
+[ ] Home Wi-Fi SSID (network name)
+[ ] Wi-Fi Passphrases and Router Admin Passwords
+[ ] Public WAN IP Address and ISP Account Details
+[ ] Full Device MAC Addresses (keep only first 3 OUI octets if needed)
+[ ] Router Serial Numbers / PIN stickers

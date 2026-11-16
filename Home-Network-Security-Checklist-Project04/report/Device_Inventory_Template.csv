@@ -1,0 +1,7 @@
+Device_ID,Device_Name,Device_Type,Local_IP,MAC_Prefix_Redacted,OUI_Vendor,Network_Segment,Patch_&_Risk_Status
+DEV-01,Primary-Home-Router,Gateway Router / AP,192.168.1.1,AA:BB:CC:XX:XX:01,TP-Link / Netgear,Primary LAN,Updated - Latest Firmware
+DEV-02,Kali-Audit-Laptop,Workstation (Kali Linux),192.168.1.15,AA:BB:CC:XX:XX:15,Intel Corporate,Primary LAN,Updated - Auto-Patch Enabled
+DEV-03,Mahesh-Android-Phone,Smartphone,192.168.1.22,AA:BB:CC:XX:XX:22,Samsung / OnePlus,Primary LAN,Updated - Monthly Security Patch
+DEV-04,Family-Windows11-PC,Desktop / Laptop,192.168.1.30,AA:BB:CC:XX:XX:30,Dell / Realtek,Primary LAN,Updated - BitLocker & Backup Active
+DEV-05,LivingRoom-Smart-TV,Smart TV (IoT),192.168.2.10,AA:BB:CC:XX:XX:50,LG / Sony,Guest Wi-Fi (Isolated),Legacy OS - Isolated on Guest VLAN
+DEV-06,Bedroom-Smart-Plug,IoT Smart Home Device,192.168.2.14,AA:BB:CC:XX:XX:64,Espressif Inc.,Guest Wi-Fi (Isolated),Isolated - No LAN Access
